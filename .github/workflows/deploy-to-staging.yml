@@ -4,11 +4,7 @@ on:
   push:
     branches:
       - develop
-  schedule:
-    - cron: '10 0 * * *'
-  repository_dispatch:
-    types: rebuild-staging
-
+  
 jobs:
   build:
 
