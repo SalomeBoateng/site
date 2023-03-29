@@ -44,4 +44,4 @@ exclude:
   - README.md
   - LICENSE
 
-
+remote_data_prefix: https://SalomeBoateng.github.io/data
